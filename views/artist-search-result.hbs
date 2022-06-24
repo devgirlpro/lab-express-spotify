@@ -1,0 +1,24 @@
+{{!-- name
+image
+btn => show the album --}}
+
+
+<h2>
+  {{#each listOfArtist}}
+  {{name}}
+</h2>
+<br>
+ <img src="{{images.0.url}}" alt="">
+  <br>
+  <button><a href="/albums/{{id}}">View Albums</a></button>
+  <br><br>
+  {{/each}}
+
+
+
+
+{{!-- <a href="/">
+	<img src="{{poster}}" alt="Poster for {{title}}">
+</a>
+
+ --}}
